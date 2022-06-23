@@ -1,0 +1,43 @@
+print("\n", "Adição")
+y = complex(5,2)
+x = complex(3,4)
+z = complex(2,1)
+p = (y + x + z)
+type(y)
+
+
+print(y + x + z)
+print("Número real:", p.real)
+print("Número img:", p.imag);
+
+print("\n","Subtração")
+o = complex(6,7)
+g = complex(3,1)
+n = complex(45,3)
+c = (o - g - n)
+type(o)
+
+print(o - g - n)
+print("Número real:", c.real)
+print("Número img: ", c.imag);
+
+print("\n","Divisão")
+m = complex(5,3)
+b = complex(2,6)
+h = complex(9,4)
+f = (m / b / h)
+type(m)
+
+print(m / b / h)
+print("Número real:", f.real)
+print("Número img:", f.imag)
+
+print("\n","Multiplicaçao")
+q = complex(4,3)
+s = complex(4,7)
+k = complex(1,2)
+u = (q * s * k)
+
+print(q * s * k)
+print("Número real:", u.real)
+print("Número img:", u.imag)
